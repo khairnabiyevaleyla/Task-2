@@ -54,9 +54,9 @@ header {
     margin-bottom: 15px;
 }
 
-.form-row .form-group .label .agency-name .agency-type .password {
+/* .form-row .form-group .label .agency-name .agency-type .password {
     display: inline;
-}
+} */
 
 label {
     display: block;
@@ -140,12 +140,23 @@ input[type="radio"]:checked {
 }
 
 .cancel-btn, .continue-btn {
-    padding: 10px 20px;
-    font-size: 14px;
+    padding: 10px 50px;
+    font-size: 15px;
     border-radius: 4px;
     border: none;
     cursor: pointer;
     margin-left: 10px;
+    letter-spacing: 2px;
+}
+
+i {
+    padding-left: 5px;
+    color: white;
+}
+
+i:hover {
+    color:  #71BA80;
+    transition: 0.3;
 }
 
 .cancel-btn {
@@ -162,6 +173,7 @@ color: #B4BAC7;
 .continue-btn {
     background-color: #71BA80;
     color: white;
+    transition: 0.3;
 }
 
 .continue-btn:hover {
@@ -191,3 +203,26 @@ p {
     word-spacing: 1px;
     font-weight: 200;
 }
+
+.form-row #city, #state {
+    width: 60%;
+}
+/* 
+.form-row  #city {
+    margin-left: 75px;
+}
+  */
+
+  ul {
+    display: flex;
+    justify-content: space-between;
+   }
+
+   span i {
+    color:  #71BA80;
+    padding-right: 4px;
+   }
+   li {
+    font-size: 12px;
+    font-weight: 600;
+   }

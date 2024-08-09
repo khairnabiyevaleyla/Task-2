@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="../src/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/ee3026eab6.js" crossorigin="anonymous"></script> 
 </head>
 <body>
   <div class="container">
@@ -19,11 +20,21 @@
         <div class="tab">contact Person Details</div>
         <div class="tab">Work Order Scope</div>
       </div> -->
-      <div class="steps">
+      <!-- <div class="steps">
         <div class="step1">Personal Details</div>
         <div class="step2">Agency Details</div>
         <div class="step3">contact Person Details</div>
         <div class="step4">Work Order Scope</div>
+      </div> -->
+      <div class="nav">
+        <nav>
+          <ul>
+            <li><span><i class="fa-regular fa-circle-check"></i>Personal Details</span></li>
+            <li><span style="text-decoration: underline; color:#71BA80;"><i class="fa-regular fa-circle-check"></i>Agency Details</span></li>
+            <li><span><i class="fa-regular fa-circle" style="color: #B4BAC7;" ></i>contact Person Details</span></li>
+            <li><span><i class="fa-regular fa-circle" style="color: #B4BAC7;" ></i>Work Order Scope</span></li>
+          </ul>
+        </nav>
       </div>
       <header style="font-size: 20px;">Profile Information</header>
       <br>
@@ -51,11 +62,11 @@
           </div>
           <div class="form-group">
             <label for="city">City<span class="required">*</span></label>
-            <input style="width: 60%;" type="text" id="city"  name="city" required/>
+            <input type="text" id="city"  name="city" required/>
           </div>
           <div class="form-group">
             <label for="state">State<span class="required">*</span></label>
-            <input style="width: 60%;" type="text" id="state" name="state" required/>
+            <input type="text" id="state" name="state" required/>
           </div>
           <div class="form-group">
             <label for="telephone-number">Telephone Number<span class="required">*</span></label>
@@ -98,8 +109,8 @@
         </div>
         <p>In order to process your registration, we ask you to provide the following information. Please note that all fields marked with an asterisk (*) are required.</p>
         <div class="form-actions">
-          <button type="button" class="cancel-btn">Cancel</button>
-          <button type="submit" class="continue-btn">Continue</button>
+          <button type="button" class="cancel-btn">CANCEL</button>
+          <button type="submit" class="continue-btn">CONTINUE<i class="fa-solid fa-arrow-right"></i></button>
         </div>
         </div>
         
