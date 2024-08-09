@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agent Registration</title>
+    <link rel="stylesheet" href="../src/css/reset.css">
+    <link rel="stylesheet" href="../src/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">  
+</head>
+<body>
+  <div class="container">
+    <header>Agent Registration</header>
+     <!--  <div class="tabs">
+        <div class="tab">Personal Details</div>
+        <div class="tab">Agency Details</div>
+        <div class="tab">contact Person Details</div>
+        <div class="tab">Work Order Scope</div>
+      </div> -->
+      <div class="steps">
+        <div class="step1">Personal Details</div>
+        <div class="step2">Agency Details</div>
+        <div class="step3">contact Person Details</div>
+        <div class="step4">Work Order Scope</div>
+      </div>
+      <header style="font-size: 20px;">Profile Information</header>
+      <br>
+      <form>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="agency-name">Agency Name<span class="required">*</span></label>
+            <input type="text" id="agency-name" name="agency-name" reqired/>
+          </div>
+          <div class="form-group">
+            <label for="agency-type">Agency Type<span class="required">*</span></label>
+            <select id="agency-type" name="agency-type" required>
+              <option value="agent">Agent</option>  
+            </select>
+          </div>
+            <div class="form-group">
+              <label for="password">Password<span class="required">*</span></label>
+              <input type="password" id="password" name="password" required/>
+            </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="address">Address<span class="required">*</span></label>
+            <input type="text" id="address" name="address" required/>
+          </div>
+          <div class="form-group">
+            <label for="city">City<span class="required">*</span></label>
+            <input style="width: 60%;" type="text" id="city"  name="city" required/>
+          </div>
+          <div class="form-group">
+            <label for="state">State<span class="required">*</span></label>
+            <input style="width: 60%; "type="text" id="state" name="state" required/>
+          </div>
+          <div class="form-group">
+            <label for="telephone-number">Telephone Number<span class="required">*</span></label>
+            <input type="tel" id="telephone-number" name="telephone-number"required/>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="toll-free-number">Toll-Free Number<span class="required">*</span></label>
+            <input type="tel" id="toll-free-number" name="toll-free-number" required/>
+          </div>
+          <div class="form-group">
+            <label for="email">Email ID<span class="required">*</span></label>
+            <input type="email" id="email" name="email" required/>
+          </div>
+          <div class="form-group">
+            <label for="website">Website<span class="required">*</span></label>
+            <input type="url" id="website" name="website" required/>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="company-name">Company Name<span class="required">*</span></label>
+            <input type="text" id="company-name" name="company-name" required/>
+          </div>
+          <div class="form-group">
+            <label for="office-space">Office Space</label>
+           <div class="radio-group">
+              <input type="radio" id="owned" name="office-space" value="owned" checked/>
+              <label for="owned">Owned</label>
+              <input type="radio" name="office-space" value="rental"/> 
+              <label for="rental">Rental</label>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="company-logo">Company Logo<span class="required">*</span></label>
+            <input type="file" id="company-logo" name="company-logo" required/>
+           </div>
+        </div>
+        <p>In order to process your registration, we ask you to provide the following information. Please note that all fields marked with an asterisk (*) are required.</p>
+        <div class="form-actions">
+          <button type="button" class="cancel-btn">Cancel</button>
+          <button type="submit" class="continue-btn">Continue</button>
+        </div>
+        </div>
+        
+      </form>  
+  </div>
+</body>
+</html>

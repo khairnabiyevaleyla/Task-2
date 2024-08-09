@@ -1,0 +1,193 @@
+
+* {
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    color: #71737A;
+    font-weight: 400px;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #E4EBF0;
+}
+
+.container {
+   /*  border: 10px solid red; */
+    width: 60%;
+    background-color: #FFFFFF;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 0px rgb(209, 208, 208);
+    padding-bottom: 40px;
+}
+
+header {
+    font-size: 25px;
+    font-weight: 600;
+    color: #292929;
+    margin: 20px 0px;
+}
+
+/* .tabs {
+    display: flex;
+    margin: 30px auto;
+    padding: 0px 20px;
+    overflow: hidden; 
+}
+
+.tab {
+    border: 1px solid #F1F1F1;
+    padding: 20px;
+    position: sticky;
+} */
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    width: 32%;
+    margin-bottom: 15px;
+}
+
+.form-row .form-group .label .agency-name .agency-type .password {
+    display: inline;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+select,
+input {
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid #F5F6F9;
+    box-sizing: border-box;
+    color: black;
+    padding: 10px 10px;
+    font-size: 14px;
+    align-items: center;
+}
+
+input[type="file"] {
+    background-color: #F5F6F9;
+    border-radius: 4px;
+    font-size: 9px;
+    padding: 10px 10px;
+}
+ #company-logo {
+    color: #97999F;
+ }
+ 
+/* 
+input[type="text"],
+input[type="password"],
+input[type="tel"],
+input[type="email"],
+input[type="url"],
+select,
+input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+} */
+
+.radio-group {
+    display: flex;
+    gap: 20px;
+    background-color: #F5F6F9;
+    padding: 10px 10px;
+    border-radius: 4px;
+    font-size: 9px;
+    align-items: center;
+}
+
+.radio-group label {
+    font-size: 12px;
+    align-items: center;
+
+}
+
+input[type="radio"] {
+    transform: scale(0.8); 
+    margin-right: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+input[type="radio"]:checked {
+    accent-color: #66A873; 
+    acc
+}
+
+.form-actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.cancel-btn, .continue-btn {
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.cancel-btn {
+background-color: #B4BAC7;
+color: white;
+transition: 0.3;
+}
+
+.cancel-btn:hover {
+background-color: white;
+color: #B4BAC7;
+}  
+
+.continue-btn {
+    background-color: #71BA80;
+    color: white;
+}
+
+.continue-btn:hover {
+    background-color: white;
+    color:  #71BA80;
+}
+
+.required {
+    color: red;
+}
+
+.steps {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-size: 15px;
+    text-align: justify;
+   }
+
+.step1, .step2, .step3, .step4 {
+   padding: 10px;
+   align-self:self-start
+}
+ 
+p {
+    font-size: 10px;
+    word-spacing: 1px;
+    font-weight: 200;
+}
